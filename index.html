@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="./style.css" />
+
+        <title>Frontend Mentor | Product list with cart</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="main-menu">Desserts</h1>
+        </header>
+        <main class="container">
+            <div class="box1">
+                <img
+                    class="image1"
+                    src="./assets/images/image-waffle-mobile.jpg"
+                    alt="an image of our Waffles with Berries"
+                />
+                <button class="but1" type="button">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <h5 class="but_head1">Add to Cart</h5>
+                </button>
+                <span class="spa1"> Waffle </span>
+                <h3 class="head1">Waffle with Berries</h3>
+                <p class="para1">&#36;6.50</p>
+            </div>
+            <div class="box2">
+                <img
+                    class="image image2"
+                    src="./assets/images/image-creme-brulee-mobile.jpg"
+                    alt="an image of our Vanilla Bean Crème Brûlée"
+                />
+                <button class="but but2" type="button">
+                    <ion-icon name="remove-circle-outline"></ion-icon>
+                    <h5 class="but_head2">4</h5>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                </button>
+                <span class="spa2"> Crème Brûlée </span>
+                <h3 class="head2">Vanilla Bean Crème Brûlée</h3>
+                <p class="para2">&#36;7.00</p>
+            </div>
+            <div class="box3">
+                <img
+                    src="./assets/images/image-macaron-mobile.jpg"
+                    alt="an image of our Macaron Mix of Five"
+                />
+                <button class="but3" type="button">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <h5 class="but_head1">Add to Cart</h5>
+                </button>
+                <span class="spa3"> Macaron </span>
+                <h3 class="head3">Macaron Mix of Five</h3>
+                <p class="para3">&#36;8.00</p>
+            </div>
+            <div class="box4">
+                <img
+                    class="image image4"
+                    src="./assets/images/image-tiramisu-mobile.jpg"
+                    alt="an image of our Classic Tiramisu"
+                />
+                <button class="but but4" type="button">
+                    <ion-icon name="remove-circle-outline"></ion-icon>
+                    <h5 class="but_head2">1</h5>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                </button>
+                <span class="spa4"> Tiramisu </span>
+                <h3 class="head4">Classic Tiramisu</h3>
+                <p class="para4">&#36;5.50</p>
+            </div>
+            <div class="box5">
+                <img
+                    class="image5"
+                    src="./assets/images/image-baklava-mobile.jpg"
+                    alt="an image of our Pistachio Baklava"
+                />
+                <button class="but5" type="button">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <h5 class="but_head1">Add to Cart</h5>
+                </button>
+                <span class="spa5"> Baklava </span>
+                <h3 class="head5">Pistachio Baklava</h3>
+                <p class="para5">&#36;4.00</p>
+            </div>
+            <div class="box6">
+                <img
+                    class="image6"
+                    src="./assets/images/image-meringue-mobile.jpg"
+                    alt="an image of our Lemon Meringue Pie"
+                />
+                <button class="but6" type="button">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <h5 class="but_head1">Add to Cart</h5>
+                </button>
+                <span class="spa6"> Pie </span>
+                <h3 class="head6">Lemon Meringue Pie</h3>
+                <p class="para6">&#36;5.00</p>
+            </div>
+            <div class="box7">
+                <img
+                    class="image7"
+                    src="./assets/images/image-cake-mobile.jpg"
+                    alt="an image of our Red Velvet Cake"
+                />
+                <button class="but7" type="button">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <h5 class="but_head1">Add to Cart</h5>
+                </button>
+                <span class="spa7"> Cake </span>
+                <h3 class="head7">Red Velvet Cake</h3>
+                <p class="para7">&#36;4.50</p>
+            </div>
+            <div class="box8">
+                <img
+                    class="image8"
+                    src="./assets/images/image-brownie-mobile.jpg"
+                    alt="an image of our Salted Caramel Brownie"
+                />
+                <button class="but8" type="button">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <h5 class="but_head1">Add to Cart</h5>
+                </button>
+                <span class="spa8"> Brownie </span>
+                <h3 class="head8">Salted Caramel Brownie</h3>
+                <p class="para8">&#36;4.50</p>
+            </div>
+            <div class="box9">
+                <img
+                    class="image image9"
+                    src="./assets/images/image-panna-cotta-mobile.jpg"
+                    alt="an image of our Vanilla Panna Cotta"
+                />
+                <button class="but but9" type="button">
+                    <ion-icon name="remove-circle-outline"></ion-icon>
+                    <h5 class="but_head2">2</h5>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                </button>
+                <span class="spa9"> Panna Cotta </span>
+                <h3 class="head9">Vanilla Panna Cotta</h3>
+                <p class="para9">&#36;6.50</p>
+            </div>
+            <section class="cart">
+                <h2 class="cart_header">Your cart (7)</h2>
+                <div class="cart_item">
+                    <h4 class="cart_item">Classic Tiramisu</h4>
+                    <ion-icon class="cart_cancel" name="close-circle-outline"></ion-icon>
+                </div>
+                <div class="cart_price">
+                    <h4 class="cart_quantity">1x</h4>
+                    <span class="cart_price_1">@ &#36;5.50</span>
+                    <span class="cart_price_2">&#36;5.50</span>
+                </div>
+                <hr>
+                <div class="cart_item">
+                    <h4 class="cart_item">Vanilla Bean Crème Brûlée</h4>
+                    <ion-icon class="cart_cancel" name="close-circle-outline"></ion-icon>
+                </div>
+                <div class="cart_price">
+                    <h4 class="cart_quantity">4x</h4>
+                    <span class="cart_price_1">@ &#36;7.00</span>
+                    <span class="cart_price_2">&#36;28.00</span>
+                </div>
+                <hr>
+                <div class="cart_item">
+                    <h4 class="cart_item">Vanilla Panna Cotta</h4>
+                    <ion-icon class="cart_cancel" name="close-circle-outline"></ion-icon>
+                </div>
+                <div class="cart_price">
+                    <h4 class="cart_quantity">2x</h4>
+                    <span class="cart_price_1">@ &#36;6.50</span>
+                    <span class="cart_price_2">&#36;13.00</span>
+                </div>
+                <hr>
+                <div class="cart_total">
+                    <p class="cart_order">Order Total</p>
+                    <h2 class="cart_total_amount">&#36;46.50</h2>
+                </div>
+                <div class="cart_footer">
+                    <ion-icon class="delivery"  name="paper-plane-outline"></ion-icon>
+                    <p class="cart_footer-para">this is a <span class="cart_footer-span">carbon_neutral delivery</span></p>
+                </div>
+                <button class="confirm_order" type="button">Confirm Order</button>
+            </section>
+        </main>
+        <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge"
+                >Frontend Mentor</a
+            >. <a href="#main-menu">click here to go back to the top</a>.
+        </div>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
